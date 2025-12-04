@@ -4,7 +4,7 @@ export const profileConfig: ProfileConfig = {
 	// 头像
 	avatar: "/assets/images/avatar.webp",
 	// 名字
-	name: "sky",
+	name: "夜雨",
 	// 个人签名
 	bio: "世界好大，我想去看看。",
 
@@ -16,12 +16,6 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/1392549147",
-			showName: false,
-		},
-		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
 			url: "https://github.com/yuye54876",
@@ -30,7 +24,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa6-solid:envelope",
-			url: "mailto:sky-0712@qq.com",
+			url: "mailto:yeyu54876@gmail.com",
 			showName: false,
 		},
 		

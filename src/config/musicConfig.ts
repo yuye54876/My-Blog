@@ -83,7 +83,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		lrcHidden: true,
 
 		// 播放列表是否默认折叠
-		listFolded: false,
+		listFolded: true,
 
 		// 播放列表最大高度
 		listMaxHeight: "340px",
