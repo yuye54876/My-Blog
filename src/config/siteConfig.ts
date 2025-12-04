@@ -7,10 +7,10 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	title: "Firefly",
-	subtitle: "Demo site",
-	site_url: "https://firefly.cuteleaf.cn",
+	subtitle: "my blog",
+	site_url: "https://sky1314.dpdns.org",
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"我的博客，用来写一些文章和感悟之类的东西。",
 	keywords: [
 		"Firefly",
 		"Fuwari",
@@ -52,11 +52,11 @@ export const siteConfig: SiteConfig = {
 	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
+	siteStartDate: "2025-12-03", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
 
 	// bangumi配置
 	bangumi: {
-		userId: "1163581", // 在此处设置你的Bangumi用户ID
+		userId: "1183888", // 在此处设置你的Bangumi用户ID
 	},
 
 	// 文章页底部的"上次编辑时间"卡片开关
@@ -134,8 +134,8 @@ export const siteConfig: SiteConfig = {
 			},
 			credit: {
 				enable: {
-					desktop: true, // 桌面端显示横幅图片来源文本
-					mobile: true, // 移动端显示横幅图片来源文本
+					desktop: false, // 桌面端显示横幅图片来源文本
+					mobile: false, // 移动端显示横幅图片来源文本
 				},
 				text: {
 					desktop: "Pixiv - 晚晚喵", // 桌面端要显示的来源文本
