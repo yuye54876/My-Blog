@@ -24,7 +24,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 220, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 345, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 		defaultMode: "system", // 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
 	},
@@ -97,7 +97,7 @@ export const siteConfig: SiteConfig = {
 		// 背景图片配置
 		src: {
 			// 桌面背景图片
-			desktop: "/assets/images/yu.jpg",
+			desktop: "/assets/images/chunjie.jpg",
 			// 移动背景图片
 			mobile: "/assets/images/huatianyi.jpg",
 		},
@@ -135,11 +135,11 @@ export const siteConfig: SiteConfig = {
 					mobile: true, // 移动端显示横幅图片来源文本
 				},
 				text: {
-					desktop: "MORI森", // 桌面端要显示的来源文本
+					desktop: "Yolanda", // 桌面端要显示的来源文本
 					mobile: "MORI森", // 移动端要显示的来源文本
 				},
 				url: {
-					desktop: "https://www.pixiv.net/users/14292311", // 桌面端原始艺术品或艺术家页面的 URL 链接
+					desktop: "https://www.pixiv.net/artworks/95681846", // 桌面端原始艺术品或艺术家页面的 URL 链接
 					mobile: "https://www.pixiv.net/users/14292311", // 移动端原始艺术品或艺术家页面的 URL 链接
 				},
 			},
