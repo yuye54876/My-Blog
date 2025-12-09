@@ -97,9 +97,9 @@ export const siteConfig: SiteConfig = {
 		// 背景图片配置
 		src: {
 			// 桌面背景图片
-			desktop: "/assets/images/d1.webp",
+			desktop: "/assets/images/yu.jpg",
 			// 移动背景图片
-			mobile: "/assets/images/m3.webp",
+			mobile: "/assets/images/huatianyi.jpg",
 		},
 
 		// Banner模式特有配置
@@ -117,7 +117,8 @@ export const siteConfig: SiteConfig = {
 				// 主页横幅副标题
 				subtitle: [
 					"华风夏韵 洛水天依",
-					"未来的你会光芒万丈 而我也曾是你万分之一的光",
+					"未来的你会光芒万丈",
+					"我也曾是你万分之一的光"
 				],
 				typewriter: {
 					//打字机开启 → 循环显示所有副标题
@@ -130,16 +131,16 @@ export const siteConfig: SiteConfig = {
 			},
 			credit: {
 				enable: {
-					desktop: false, // 桌面端显示横幅图片来源文本
-					mobile: false, // 移动端显示横幅图片来源文本
+					desktop: true, // 桌面端显示横幅图片来源文本
+					mobile: true, // 移动端显示横幅图片来源文本
 				},
 				text: {
-					desktop: "Pixiv", // 桌面端要显示的来源文本
-					mobile: "Pixiv", // 移动端要显示的来源文本
+					desktop: "MORI森", // 桌面端要显示的来源文本
+					mobile: "MORI森", // 移动端要显示的来源文本
 				},
 				url: {
-					desktop: "https://www.pixiv.net/artworks/135490046", // 桌面端原始艺术品或艺术家页面的 URL 链接
-					mobile: "https://www.pixiv.net/users/42715864", // 移动端原始艺术品或艺术家页面的 URL 链接
+					desktop: "https://www.pixiv.net/users/14292311", // 桌面端原始艺术品或艺术家页面的 URL 链接
+					mobile: "https://www.pixiv.net/users/14292311", // 移动端原始艺术品或艺术家页面的 URL 链接
 				},
 			},
 			navbar: {
