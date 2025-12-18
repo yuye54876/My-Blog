@@ -124,7 +124,7 @@ export const siteConfig: SiteConfig = {
 				subtitle: [
 					"华风夏韵 洛水天依",
 					"未来的你会光芒万丈",
-					"我也曾是你万分之一的光"
+					"我也是你万分之一的光"
 				],
 				typewriter: {
 					//打字机开启 → 循环显示所有副标题
