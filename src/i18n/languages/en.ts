@@ -192,8 +192,13 @@ export const en: Translation = {
 	[Key.sponsorAnonymous]: "Anonymous",
 	[Key.scanToSponsor]: "Scan to Sponsor",
 	[Key.sponsorGoTo]: "Go to Sponsor",
-	[Key.sponsorButton]: "Support",
-	[Key.sponsorButtonText]: "If this article helped you, welcome to support!",
+	[Key.sponsorButton]: "Support & Share",
+	[Key.sponsorButtonText]:
+		"If this article helped you, please share or support!",
+
+	[Key.shareOnSocial]: "Share",
+	[Key.shareOnSocialDescription]:
+		"If this article helped you, please share it with others!",
 
 	// Site Statistics
 	[Key.siteStats]: "Site Statistics",
@@ -226,4 +231,11 @@ export const en: Translation = {
 	[Key.calendarOctober]: "Oct",
 	[Key.calendarNovember]: "Nov",
 	[Key.calendarDecember]: "Dec",
+
+	[Key.shareArticle]: "Share",
+	[Key.generatingPoster]: "Generating Poster...",
+	[Key.copied]: "Copied",
+	[Key.copyLink]: "Copy Link",
+	[Key.savePoster]: "Save Poster",
+	[Key.scanToRead]: "Scan to Read",
 };
