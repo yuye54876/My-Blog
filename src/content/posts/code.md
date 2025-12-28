@@ -1,7 +1,7 @@
 ---
-title: 我的计科之旅
+title: 我的计算机之旅
 published: 2025-12-24
-description: 关于我开始学习计科的一些记录。
+description: 关于我开始学习计算机知识的一些记录。
 tags: [开发]
 category: 开发
 draft: false
