@@ -27,6 +27,12 @@ export const profileConfig: ProfileConfig = {
 			url: "mailto:yeyu54876@gmail.com",
 			showName: false,
 		},
+		{
+			name: "RSS",
+			icon: "fa6-solid:rss",
+			url: "/rss/",
+			showName: false,
+		},
 		
 	],
 };
